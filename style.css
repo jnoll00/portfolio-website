@@ -108,14 +108,36 @@ h1 {
   transition: color 0.2s ease-in-out;
 }
 
-/*add toggle for light/dark theme choice*/
-body.dark-mode { 
+/* ============================
+   Dark Mode Styles
+============================ */
+body.dark-mode {
   background-color: #222;
   color: #eee;
 }
 
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  cursor: pointer;
+/* Header + nav in dark mode */
+body.dark-mode header,
+body.dark-mode header h1,
+body.dark-mode nav a {
+  color: #fff;
+}
+
+/* Nav hover in dark mode */
+body.dark-mode nav a:hover {
+  color: #aaa; /* subtle gray on hover */
+  transition: color 0.2s ease-in-out;
+}
+
+/* Project section text in dark mode */
+body.dark-mode #projects,
+body.dark-mode #projects h2,
+body.dark-mode #projects li,
+body.dark-mode #projects li ul li {
+  color: #fff;
+}
+
+/* Project list item hover in dark mode */
+body.dark-mode #projects li:hover {
+  color: #ccc; /* lighter gray on hover */
 }

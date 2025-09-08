@@ -8,3 +8,51 @@ body {
 h1 {
   color: #333;
 }
+
+/* ============================
+   Projects Section Styles
+============================ */
+#projects {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff; /* different from body background so it "pops" */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left; /* align project list text to the left */
+}
+
+#projects h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+#projects ol {
+  margin-left: 1.2rem;
+  padding-left: 1rem;
+}
+
+#projects li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+#projects li > ul {
+  margin-top: 0.3rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+#projects li ul li {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+#projects li ul li::marker {
+  color: #007acc;
+}

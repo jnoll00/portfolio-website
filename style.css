@@ -109,7 +109,7 @@ h1 {
 }
 
 /*add toggle for light/dark theme choice*/
-body.dark { 
+body.dark-mode { 
   background-color: #222;
   color: #eee;
 }

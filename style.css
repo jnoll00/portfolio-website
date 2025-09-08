@@ -1,3 +1,46 @@
+/*
+==========================================
+    Portfolio Website Main Stylesheet
+    ---------------------------------------
+    - Sets global font, background, and text color for body.
+    - Styles main heading (h1) for prominence and centering.
+    - Projects Section:
+            - Centers and constrains width of #projects container.
+            - Styles section heading (h2) for hierarchy.
+            - Formats ordered project list and nested unordered lists.
+            - Applies distinct colors for main and sub-list items.
+            - Adds subtle hover effect for project list items.
+    - Color palette inspired by Apple’s design system.
+    - Smooth scroll behavior for anchor links.
+    - Button effect styles for interactive elements.
+==========================================
+*/
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Example button effect */
+.button {
+  display: inline-block;
+  padding: 0.6em 1.4em;
+  background: #0071e3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: background 0.2s, transform 0.1s;
+}
+
+.button:hover,
+.button:focus {
+  background: #005bb5;
+  transform: translateY(-2px) scale(1.03);
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   background-color: #ffffff;
